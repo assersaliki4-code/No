@@ -7,7 +7,7 @@ const { spawn } = require("child_process");
 const log = require("./logger/log.js");
 
 function startProject() {
-    const child = spawn("node", ["Sakura.js"], {
+    const child = spawn("node", ["Ariel 🤣.js"], {
         cwd: __dirname,
         stdio: "inherit",
         shell: true,
@@ -22,7 +22,7 @@ function startProject() {
     });
 
     child.on("error", (err) => {
-        log.err("INDEX", "Failed to start Sakura.js", err);
+        log.err("INDEX", "Failed to start Ariel.js", err);
     });
 }
 
